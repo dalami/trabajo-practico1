@@ -12,7 +12,7 @@ html {
     justify-content: space-between;
     align-items: center;
     background-color: #2C3333;
-    height:50px ;
+    height:45px ;
     width: 100vw;
     flex-wrap: wrap;
     
@@ -70,7 +70,7 @@ html {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    height:80px ;
+    height: 70px;
     width: 100vw;
     flex-wrap: wrap;
 
@@ -81,8 +81,6 @@ html {
     flex-direction: column;
     align-items: center;
     margin-left: 40px;
-   
-    
 }
 .orange{
     font-size:xx-large;
@@ -132,6 +130,10 @@ a{
     margin: 25px;
     
 }
+a:hover{
+    color: #FE8A1C;
+    
+}
 .btn-1 {
     margin-right: 60px ;
     width: 120px;
@@ -159,6 +161,34 @@ a{
     100%{
         transform: scale(1);
     }
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+
+.img-ppal{
+    width: 500px;
+    height:600px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    width: 300px  ;
+    height: 195px;
+    border-radius: 10px;
+    padding: 200px 50px;
+    
 }
 
 
