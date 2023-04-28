@@ -4,7 +4,7 @@
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif,;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .header-1 {
@@ -14,6 +14,8 @@ html {
     background-color: #2C3333;
     height:50px ;
     width: 100vw;
+    flex-wrap: wrap;
+    
 }
 
 .nav-1 {
@@ -44,10 +46,25 @@ html {
     margin-right: 50px;
     
 }
+.email-1:hover{
+    cursor: pointer;
+    color: #FE8A1C;
+    
+}
+.juntar:hover {
+    cursor: pointer;
+    color: #FE8A1C;
+ }
 
 .space {
     padding: 10px;
 }
+
+.space:hover{
+    cursor: pointer;
+    color: #FE8A1C;
+}
+
 .header-2 {
     display: flex;
     justify-content: space-between;
@@ -55,6 +72,8 @@ html {
     background-color: white;
     height:80px ;
     width: 100vw;
+    flex-wrap: wrap;
+
     
 }
 .nav2 {
@@ -72,6 +91,7 @@ html {
 }
 .gift {
     width: 21rem;
+    height: 30px;
    
 }
 
@@ -94,6 +114,7 @@ html {
 .espacio{
     padding: 10px;
 }
+
 .header-3 {
     display: flex;
     justify-content: space-between;
@@ -101,13 +122,15 @@ html {
     background-color: white;
     height:40px ;
     width: 100vw;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 a{
     color: black;
     text-decoration: none;
     margin: 25px;
+    
 }
 .btn-1 {
     margin-right: 60px ;
@@ -117,8 +140,26 @@ a{
     border-color: #BEBFBE;
     box-shadow: none;
     border-radius: 5px;
+    
+}
+.btn-1:hover{
+   opacity: 1;
+   animation: boton 1s ease-in-out;
+   transition: transfom 4s ease-in-out;
+   cursor: pointer;
+   color: #FE8A1C;
 }
 
+@keyframes boton{
+   
+    50%{
+        transform: scale(0.5);
+    }    
+    
+    100%{
+        transform: scale(1);
+    }
+}
 
 
 
