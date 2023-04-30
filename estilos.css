@@ -379,6 +379,10 @@ form{
     font-weight: 600;
     
 }
+.register:hover{
+    cursor: pointer;
+    opacity: 0.2;
+}
 
     
 
