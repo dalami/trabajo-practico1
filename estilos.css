@@ -52,10 +52,15 @@ html {
     color: #FE8A1C;
     
 }
+.juntar{
+    margin-left: 550px;
+}
+
 .juntar:hover {
     cursor: pointer;
     color: #FE8A1C;
  }
+
 
 .space {
     padding: 10px;
@@ -299,14 +304,14 @@ form{
     margin: 5px 0px;
 }
 
-.input-1 {
+.input {
     width: 260px;
     height: 35px;
     border-radius: 5px;
     border: 1px solid #9E9F9F;
     margin: 5px 0px;
 }
-.input-2 {
+.input {
   
     width: 260px;
     height: 35px;
@@ -315,20 +320,26 @@ form{
     margin: 5px 0px;
  
 }
-.ojo .input-2:focus{
-    outline: none;
-}
+.input:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    }
+
 
 
 .forgoten {
     font-size: small;
     color:#9E9F9F ;
 }
+.forgoten:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
 
 .btn-sign {
     width: 150px;
     height: 40px;
-    margin-left: 20%;
+    margin-left: 23%;
     border-radius: 5px;
     color: white;
     background-color: #FE8A1C;
@@ -352,14 +363,23 @@ form{
     color: #9E9F9F;
     
 }
+.account:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
 
 .register {
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: small;
-    color: #9E9F9F;
+    color:#FE8A1C;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-weight: 600;
+    
 }
+
     
 
 
