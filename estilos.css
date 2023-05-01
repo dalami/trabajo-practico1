@@ -53,6 +53,10 @@ html {
     margin-right: 50px;
     
 }
+
+.email-1{
+    text-decoration: underline;
+}
 .email-1:hover{
     cursor: pointer;
     color: #FE8A1C;
@@ -138,6 +142,7 @@ html {
 
 a{
     color: black;
+    font-weight: 600;
     text-decoration: none;
     margin: 25px;
     
@@ -292,6 +297,7 @@ h3{
 margin-top: 6px;
 font-size: small;
 margin-left: 40px;
+
 }
 .mobile:hover {
     cursor: pointer;
@@ -306,8 +312,10 @@ form{
 } 
 .lbl{
     font-size: smaller;
-    color: #9E9F9F;
+    font-weight: 600;
     margin: 5px 0px;
+    color: #666c6c;
+    
 }
 
 .input {
@@ -335,7 +343,9 @@ form{
 
 .forgoten {
     font-size: small;
-    color:#9E9F9F ;
+    font-weight: 600;
+    color: #666c6c;
+    
 }
 .forgoten:hover{
     cursor: pointer;
@@ -366,7 +376,8 @@ form{
     flex-direction: row;
     justify-content: center;
     font-size: small;
-    color: #9E9F9F;
+    color: #666c6c;
+    font-weight: 600;
     
 }
 .account:hover{
