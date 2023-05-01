@@ -11,6 +11,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #2C3333;
     height:45px ;
     width: 100vw;
@@ -36,6 +37,11 @@ html {
     
    
 }
+.tel:hover{
+    cursor: pointer;
+    color: #FE8A1C;
+}
+
 
 .border {
     border-left: solid 1px white;
@@ -76,7 +82,7 @@ html {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    height: 70px;
+    height: 4rem;
     width: 100vw;
     flex-wrap: wrap;
 
@@ -124,7 +130,7 @@ html {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    height:40px ;
+    height:2.5rem ;
     width: 100vw;
     flex-direction: row;
     flex-wrap: wrap;
@@ -153,7 +159,7 @@ a:hover{
 .btn-1:hover{
    opacity: 1;
    animation: boton 1s ease-in-out;
-   transition: transfom 4s ease-in-out;
+   transition:all transfom 4s ease-in-out;
    cursor: pointer;
    color: #FE8A1C;
 }
@@ -275,7 +281,7 @@ h3{
 .correo:hover {
     opacity: 1;
     animation: boton 1s ease-in-out;
-    transition: transfom 4s ease-in-out;
+    transition:all transfom 4s ease-in-out;
     cursor: pointer;
     color: #FE8A1C;
 }
@@ -349,7 +355,7 @@ form{
 .btn-sign:hover {
     opacity: 1;
     animation: boton 1s ease-in-out;
-    transition: transfom 4s ease-in-out;
+    transition:all transfom 4s ease-in-out;
     cursor: pointer;
     color: #FE8A1C;
 }
